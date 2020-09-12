@@ -1,0 +1,109 @@
+body {
+	background-color: #0B2239;
+	font-family: 'Rubik', sans-serif;
+}
+#text-reader {
+	width: 25vw;
+	background: #fff;
+	padding: 30px;
+	margin: 20px auto;
+}
+#title {
+	background-image: url('../img/text-reader.png');
+	width: 500px;
+	height: 75px;
+	margin: 110px auto 0px auto;
+}
+#subtitle {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 0.4em;
+	margin-top: 10px !important;
+}
+.block {
+	margin: 15px auto;
+}
+label {
+	font-size: 1.1em;
+}
+#voices {
+	font-family: 'Rubik', sans-serif;
+	background-color: #fff;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding: 5px;
+}
+#voices:after {
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #fff transparent transparent transparent;
+}
+#text-convert {
+	font-family: 'Rubik', sans-serif;
+	background-color: #fff;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding: 15px;
+	resize: none;
+}
+#stop, #read {
+	width: 100%;
+	margin: 8px 0px;
+	font-family: 'Rubik', sans-serif;
+}
+#read {
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #F1C40F;
+	border: 0;
+	border-bottom: 4px solid #be9d18;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #F1C40F;
+	box-shadow: inset 0 -2px #F1C40F;
+}
+#read:focus, #read:hover {
+	top: 1px;
+	outline: none !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+	background-color: #d4ad0e;
+}
+#stop {
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #f39c12;
+	border: 0;
+	border-bottom: 4px solid #9b7c00;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #f39c12;
+	box-shadow: inset 0 -2px #f39c12;
+}
+#stop:focus, #stop:hover {
+	top: 1px;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+	background-color: #cf860f;
+}
