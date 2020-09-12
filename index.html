@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;0,800;1,600&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <title>Text Reader</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <h5 id="subtitle">COMPUTER READING YOUR TEXT</h5>
+    <div id="text-reader">
+
+
+        <div class="block">
+        <label for="rate">Select A Voice Reader:</label>
+        <select name="voice" id="voices">
+            <option value="">Select A Voice</option>
+        </select>
+       </div>
+
+
+       <div class="block">
+       <label for="rate">Rate:</label>
+       <input name="rate" type="range" min="0" max="3" value="1" step="0.1" />
+        </div>
+ 
+        <div class="block">
+       <label for="pitch">Pitch:</label>
+       <input name="pitch" type="range" min="0" max="2" step="0.1">
+        </div>
+
+        <div class="block">
+       <label for="pitch">Text:</label><br/>
+       <textarea id="text-convert" name="text" rows="8" cols="42">Hello! I am text reader. Let me read your text.</textarea>
+        </div>
+
+       <button id="read">Read</button>
+       <button id="stop">Stop</button>
+    
+    </div>
+
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+</html>
